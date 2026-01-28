@@ -1,3 +1,5 @@
 let a='dont lose hope';
 
-let sentence=a.split(' ').map(a[0].toUpperCase+slice(1));
+let s=a.split(' ').map(word=> word[0].toUpperCase()+word.slice(1));
+
+console.log(s.join(' '));
