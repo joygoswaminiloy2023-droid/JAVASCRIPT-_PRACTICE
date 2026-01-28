@@ -3,10 +3,16 @@
 
 let count=0;
 let s="ababraehjjyiuyaadjhgfhdaeyiuye";
-for(let i=0;i<s.length;i++){
+// for(let i=0;i<s.length;i++){
 
-    if(s[i]==="a"){
-count++;
+//     if(s[i]==="a"){
+// count++;
+//     }
+// }
+// console.log(count);
+
+for(let i=0;i<s.length;i++){
+    if(s[i]==='a'){
+        count++;
     }
 }
-console.log(count);
